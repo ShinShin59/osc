@@ -1,9 +1,11 @@
-import { PeriodicTable } from "@/components/game/PeriodicTable";
+import { Game } from "@/components/game/Game";
+import { Header } from "@/components/Header";
 
 function App() {
   return (
-    <div className="flex min-h-screen items-center justify-center">
-      <PeriodicTable />
+    <div className="flex flex-col min-h-screen mx-auto max-w-7xl">
+      <Header />
+      <Game />
     </div>
   );
 }

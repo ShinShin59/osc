@@ -1,14 +1,19 @@
 import type { CSSProperties } from "react";
 import { elements, PLACEHOLDER_CELLS } from "@/data/periodic-table";
+import { cn } from "@/lib/utils";
 import { ElementCell } from "./ElementCell";
 import { PlaceholderCell } from "./PlaceholderCell";
 
-export function PeriodicTable() {
+type PeriodicTableProps = {
+  className?: string;
+};
+
+export function PeriodicTable({ className }: PeriodicTableProps) {
   const cellSize = 64;
   const spacer = Math.round(cellSize * 0.06);
 
   return (
-    <div className="overflow-x-auto p-4">
+    <div className={cn("overflow-x-auto p-4", className)}>
       <div
         className="mx-auto grid w-fit gap-px"
         style={
