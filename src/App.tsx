@@ -1,12 +1,15 @@
 import { Game } from "@/components/game/Game";
 import { Header } from "@/components/Header";
+import { TooltipProvider } from "@/components/ui/tooltip";
 
 function App() {
   return (
-    <div className="flex flex-col h-screen mx-auto max-w-7xl">
-      <Header />
-      <Game />
-    </div>
+    <TooltipProvider>
+      <div className="flex flex-col h-screen mx-auto max-w-7xl">
+        <Header />
+        <Game />
+      </div>
+    </TooltipProvider>
   );
 }
 
