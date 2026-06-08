@@ -1,6 +1,7 @@
 import type { CSSProperties } from "react";
 import { elements, PLACEHOLDER_CELLS } from "@/data/periodic-table";
 import { cn } from "@/lib/utils";
+import { useGameStore } from "@/store/game";
 import { ElementCell } from "./ElementCell";
 import { PlaceholderCell } from "./PlaceholderCell";
 
@@ -26,7 +27,10 @@ export function PeriodicTable({ className }: PeriodicTableProps) {
       >
         {elements.map((el) => (
           <div key={el.number} style={{ gridColumn: el.xpos, gridRow: el.ypos }}>
-            <ElementCell element={el} />
+            <ElementCell
+              element={el}
+              onClick={() => useGameStore.getState().addClick(el.number)}
+            />
           </div>
         ))}
         {PLACEHOLDER_CELLS.map(({ xpos, ypos, ...cell }) => (

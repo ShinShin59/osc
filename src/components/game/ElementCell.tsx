@@ -4,17 +4,21 @@ import type { Element } from "@/data/periodic-table";
 type ElementCellProps = {
   element: Element;
   className?: string;
+  onClick?: () => void;
 };
 
 function formatAtomicMass(mass: number): string {
   return mass.toFixed(2);
 }
 
-export function ElementCell({ element, className }: ElementCellProps) {
+export function ElementCell({ element, className, onClick }: ElementCellProps) {
   return (
-    <div
+    <button
+      type="button"
+      aria-label={`${element.name} (${element.symbol})`}
+      onClick={onClick}
       className={cn(
-        "flex size-(--cell-size) min-w-0 flex-col rounded-sm border border-black/20 p-0.5",
+        "flex size-(--cell-size) min-w-0 cursor-pointer flex-col rounded-sm border border-black/20 p-0.5 text-left transition-[filter] hover:brightness-110",
         element.textClass,
         className,
       )}
@@ -37,6 +41,6 @@ export function ElementCell({ element, className }: ElementCellProps) {
           {element.category}
         </span>
       </div>
-    </div>
+    </button>
   );
 }

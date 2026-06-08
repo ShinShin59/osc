@@ -22,9 +22,7 @@ function InfoRow({
 }) {
   return (
     <p className="text-sm leading-relaxed">
-      <span className={cn("font-medium uppercase", labelClassName)}>
-        {label}
-      </span>
+      <span className={cn("font-medium uppercase", labelClassName)}>{label}</span>
       {value ? (
         <>
           {" "}
@@ -38,11 +36,7 @@ function InfoRow({
 export function InfoButton({ open, onOpenChange, onOpen }: OverlayControlProps) {
   return (
     <>
-      <HeaderIconButton
-        icon={Info}
-        label="Informations"
-        onClick={onOpen}
-      />
+      <HeaderIconButton icon={Info} label="Informations" onClick={onOpen} />
 
       <Dialog open={open} onOpenChange={onOpenChange}>
         <DialogContent className={cn(dialogContentClass, "pt-8")}>
@@ -52,24 +46,10 @@ export function InfoButton({ open, onOpenChange, onOpen }: OverlayControlProps) 
             <DialogDescription>Crédits et mentions légales</DialogDescription>
           </DialogHeader>
           <div className="space-y-3">
-            <p className="text-center text-sm font-medium text-white">
-              VERSION 1.12
-            </p>
-            <InfoRow
-              label="CONCEPTION"
-              value="Robin Isnard"
-              labelClassName="text-orange-400"
-            />
-            <InfoRow
-              label="GRAPHISME"
-              value="Amaël Isnard"
-              labelClassName="text-amber-400"
-            />
-            <InfoRow
-              label="REALISATION"
-              value="Shin Shin"
-              labelClassName="text-yellow-300"
-            />
+            <p className="text-center text-sm font-medium text-white">VERSION 1.12</p>
+            <InfoRow label="CONCEPTION" value="Robin Isnard" labelClassName="text-orange-400" />
+            <InfoRow label="GRAPHISME" value="Amaël Isnard" labelClassName="text-amber-400" />
+            <InfoRow label="REALISATION" value="ShinShin" labelClassName="text-yellow-300" />
             <InfoRow
               label="CONTACT"
               value="contact@elementaire.fr"
@@ -81,10 +61,7 @@ export function InfoButton({ open, onOpenChange, onOpen }: OverlayControlProps) 
               labelClassName="text-sky-300"
             />
             <div className="space-y-1">
-              <InfoRow
-                label="MENTIONS LEGALES"
-                labelClassName="text-pink-400"
-              />
+              <InfoRow label="MENTIONS LEGALES" labelClassName="text-pink-400" />
               <p className="pl-4 text-sm text-white">Licenses</p>
               <p className="pl-4 text-sm text-white">Cookies</p>
             </div>
