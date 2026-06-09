@@ -23,11 +23,8 @@ export function Header() {
   };
 
   return (
-    <header className="relative px-2 pb-2">
-      <nav
-        className="flex items-center justify-end gap-1 py-1"
-        aria-label="Actions"
-      >
+    <header className="relative px-2 pb-10">
+      <nav className="flex items-center justify-end gap-1 py-1" aria-label="Actions">
         <StatsButton
           open={activeOverlay === "stats"}
           onOpen={() => openOverlay("stats")}
@@ -50,25 +47,14 @@ export function Header() {
         />
       </nav>
 
-      <div className="relative pt-1">
-        <img
-          src={loupeSrc}
-          alt=""
-          aria-hidden
-          className="absolute left-0 top-1/2 h-20 w-20 -translate-y-1/2 sm:h-24 sm:w-24"
-        />
+      <div className="relative flex items-center justify-center flex-wrap">
+        <img src={loupeSrc} alt="" aria-hidden className="h-50 w-50" />
         <div className="flex flex-col items-center text-center">
           <h1>
-            <img
-              src={titreSrc}
-              alt="Élémentaire"
-              className="mx-auto h-auto w-full max-w-xl sm:max-w-2xl"
-            />
+            <img src={titreSrc} alt="Élémentaire" className="h-auto w-full max-w-4xl" />
           </h1>
-          <h2 className="mt-1 text-base font-semibold text-white sm:text-lg">
-            Retrouvez l'élément mystère
-          </h2>
         </div>
+        <h2 className="text-4xl font-bold text-accent w-100%">• Retrouve l'Élément mystère •</h2>
       </div>
     </header>
   );
