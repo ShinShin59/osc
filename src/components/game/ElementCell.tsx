@@ -33,8 +33,8 @@ export function ElementCell({ element, selected = false, className, onClick }: E
         <span className="text-xs font-bold leading-none">{element.symbol}</span>
       </div>
 
-      <div className="shrink-0 text-center leading-snug">
-        <span className="block max-w-full truncate px-0.5 text-[9px] font-semibold">{element.name}</span>
+      <div className="flex min-h-[18px] shrink-0 items-end justify-center text-center leading-[1.05]">
+        <span className="line-clamp-2 max-w-full px-0.5 text-[8px] font-semibold">{element.name}</span>
       </div>
     </button>
   );
