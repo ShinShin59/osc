@@ -9,6 +9,9 @@ export type Element = {
   name: string;
   atomic_mass: number;
   category: ElementCategory;
+  period: number;
+  group: number;
+  phase: string;
   xpos: number;
   ypos: number;
 };
@@ -34,6 +37,9 @@ export const elements: Element[] = tableJson.elements
     name: el.name,
     atomic_mass: el.atomic_mass,
     category: resolveCategory(el.category, el.group),
+    period: el.period,
+    group: el.group,
+    phase: el.phase,
     xpos: el.xpos,
     ypos: el.ypos,
   }));

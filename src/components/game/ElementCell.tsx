@@ -25,7 +25,6 @@ export function ElementCell({ element, selected = false, className, onClick }: E
       className={cn(
         "flex size-(--cell-size) min-w-0 cursor-pointer flex-col rounded-sm border border-black/20 p-0.5 text-left transition-[filter] hover:brightness-110",
         textClass,
-        selected && "ring-2 ring-white ring-offset-1 ring-offset-black/30",
         className,
       )}
       style={{ backgroundColor }}
@@ -40,9 +39,7 @@ export function ElementCell({ element, selected = false, className, onClick }: E
       </div>
 
       <div className="flex shrink-0 flex-col items-center gap-0.5 text-center leading-snug">
-        <span className="max-w-full truncate px-0.5 text-[9px] font-semibold">
-          {element.name}
-        </span>
+        <span className="max-w-full truncate px-0.5 text-[9px] font-semibold">{element.name}</span>
         <span className={cn("max-w-full truncate px-0.5 text-[8px] font-medium", mutedTextClass)}>
           {element.category}
         </span>
