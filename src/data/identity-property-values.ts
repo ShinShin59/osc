@@ -4,6 +4,7 @@ import { formatDiscovery } from "@/data/discovery";
 import { formatNameOrigin } from "@/data/name-origin";
 import { formatNutrition } from "@/data/nutrition";
 import { formatStability } from "@/data/stability";
+import { formatSynthesis } from "@/data/synthesis";
 
 function resolveBlock({ number, group }: Element): string {
   if ((number >= 57 && number <= 71) || (number >= 89 && number <= 103)) {
@@ -41,7 +42,7 @@ export function resolveIdentityPropertyValue(
     case "state":
       return element.phase;
     case "synthesis":
-      return "—";
+      return formatSynthesis(element.number);
     case "nutrition":
       return formatNutrition(element.number);
     case "discovery":

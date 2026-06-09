@@ -1,0 +1,409 @@
+{
+  "source": "https://svs.gsfc.nasa.gov/13873/",
+  "dataAsset": "https://upload.wikimedia.org/wikipedia/commons/3/31/Nucleosynthesis_periodic_table.svg",
+  "generatedAt": "2026-06-09T13:14:07.709Z",
+  "thresholdPercent": 5,
+  "byNumber": {
+    "1": [
+      "big-bang"
+    ],
+    "2": [
+      "big-bang",
+      "supernova"
+    ],
+    "3": [
+      "dying-star",
+      "big-bang",
+      "cosmic-rays"
+    ],
+    "4": [
+      "cosmic-rays"
+    ],
+    "5": [
+      "cosmic-rays"
+    ],
+    "6": [
+      "dying-star",
+      "supernova"
+    ],
+    "7": [
+      "dying-star",
+      "supernova"
+    ],
+    "8": [
+      "supernova"
+    ],
+    "9": [
+      "supernova"
+    ],
+    "10": [
+      "supernova"
+    ],
+    "11": [
+      "supernova"
+    ],
+    "12": [
+      "supernova"
+    ],
+    "13": [
+      "supernova"
+    ],
+    "14": [
+      "supernova"
+    ],
+    "15": [
+      "supernova"
+    ],
+    "16": [
+      "supernova"
+    ],
+    "17": [
+      "supernova"
+    ],
+    "18": [
+      "supernova"
+    ],
+    "19": [
+      "supernova"
+    ],
+    "20": [
+      "supernova"
+    ],
+    "21": [
+      "supernova"
+    ],
+    "22": [
+      "supernova"
+    ],
+    "23": [
+      "supernova"
+    ],
+    "24": [
+      "supernova"
+    ],
+    "25": [
+      "supernova"
+    ],
+    "26": [
+      "supernova"
+    ],
+    "27": [
+      "supernova"
+    ],
+    "28": [
+      "supernova"
+    ],
+    "29": [
+      "supernova"
+    ],
+    "30": [
+      "supernova"
+    ],
+    "31": [
+      "supernova"
+    ],
+    "32": [
+      "supernova"
+    ],
+    "33": [
+      "supernova"
+    ],
+    "34": [
+      "supernova"
+    ],
+    "35": [
+      "supernova"
+    ],
+    "36": [
+      "supernova"
+    ],
+    "37": [
+      "supernova"
+    ],
+    "38": [
+      "dying-star",
+      "supernova"
+    ],
+    "39": [
+      "dying-star",
+      "supernova"
+    ],
+    "40": [
+      "dying-star",
+      "supernova"
+    ],
+    "41": [
+      "dying-star",
+      "neutron-star-merger"
+    ],
+    "42": [
+      "dying-star",
+      "neutron-star-merger"
+    ],
+    "43": [
+      "radioactive-decay"
+    ],
+    "44": [
+      "neutron-star-merger",
+      "dying-star"
+    ],
+    "45": [
+      "neutron-star-merger",
+      "dying-star"
+    ],
+    "46": [
+      "neutron-star-merger",
+      "dying-star"
+    ],
+    "47": [
+      "neutron-star-merger",
+      "dying-star"
+    ],
+    "48": [
+      "dying-star",
+      "neutron-star-merger"
+    ],
+    "49": [
+      "neutron-star-merger",
+      "dying-star"
+    ],
+    "50": [
+      "dying-star",
+      "neutron-star-merger"
+    ],
+    "51": [
+      "neutron-star-merger",
+      "dying-star"
+    ],
+    "52": [
+      "dying-star",
+      "neutron-star-merger"
+    ],
+    "53": [
+      "neutron-star-merger",
+      "dying-star"
+    ],
+    "54": [
+      "neutron-star-merger",
+      "dying-star"
+    ],
+    "55": [
+      "neutron-star-merger",
+      "dying-star"
+    ],
+    "56": [
+      "dying-star",
+      "neutron-star-merger"
+    ],
+    "57": [
+      "dying-star",
+      "neutron-star-merger"
+    ],
+    "58": [
+      "dying-star",
+      "neutron-star-merger"
+    ],
+    "59": [
+      "neutron-star-merger",
+      "dying-star"
+    ],
+    "60": [
+      "dying-star",
+      "neutron-star-merger"
+    ],
+    "61": [
+      "radioactive-decay"
+    ],
+    "62": [
+      "neutron-star-merger",
+      "dying-star"
+    ],
+    "63": [
+      "neutron-star-merger",
+      "dying-star"
+    ],
+    "64": [
+      "neutron-star-merger",
+      "dying-star"
+    ],
+    "65": [
+      "neutron-star-merger",
+      "dying-star"
+    ],
+    "66": [
+      "neutron-star-merger",
+      "dying-star"
+    ],
+    "67": [
+      "neutron-star-merger",
+      "dying-star"
+    ],
+    "68": [
+      "neutron-star-merger",
+      "dying-star"
+    ],
+    "69": [
+      "neutron-star-merger",
+      "dying-star"
+    ],
+    "70": [
+      "neutron-star-merger",
+      "dying-star"
+    ],
+    "71": [
+      "neutron-star-merger",
+      "dying-star"
+    ],
+    "72": [
+      "dying-star",
+      "neutron-star-merger"
+    ],
+    "73": [
+      "neutron-star-merger",
+      "dying-star"
+    ],
+    "74": [
+      "dying-star",
+      "neutron-star-merger"
+    ],
+    "75": [
+      "neutron-star-merger",
+      "dying-star"
+    ],
+    "76": [
+      "neutron-star-merger",
+      "dying-star"
+    ],
+    "77": [
+      "neutron-star-merger"
+    ],
+    "78": [
+      "neutron-star-merger",
+      "dying-star"
+    ],
+    "79": [
+      "neutron-star-merger",
+      "dying-star"
+    ],
+    "80": [
+      "dying-star",
+      "neutron-star-merger"
+    ],
+    "81": [
+      "dying-star",
+      "neutron-star-merger"
+    ],
+    "82": [
+      "neutron-star-merger",
+      "dying-star"
+    ],
+    "83": [
+      "neutron-star-merger"
+    ],
+    "84": [
+      "neutron-star-merger"
+    ],
+    "85": [
+      "neutron-star-merger"
+    ],
+    "86": [
+      "neutron-star-merger"
+    ],
+    "87": [
+      "neutron-star-merger"
+    ],
+    "88": [
+      "neutron-star-merger"
+    ],
+    "89": [
+      "neutron-star-merger"
+    ],
+    "90": [
+      "neutron-star-merger"
+    ],
+    "91": [
+      "neutron-star-merger"
+    ],
+    "92": [
+      "neutron-star-merger"
+    ],
+    "93": [
+      "neutron-star-merger"
+    ],
+    "94": [
+      "neutron-star-merger"
+    ],
+    "95": [
+      "artificial"
+    ],
+    "96": [
+      "artificial"
+    ],
+    "97": [
+      "artificial"
+    ],
+    "98": [
+      "artificial"
+    ],
+    "99": [
+      "artificial"
+    ],
+    "100": [
+      "artificial"
+    ],
+    "101": [
+      "artificial"
+    ],
+    "102": [
+      "artificial"
+    ],
+    "103": [
+      "artificial"
+    ],
+    "104": [
+      "artificial"
+    ],
+    "105": [
+      "artificial"
+    ],
+    "106": [
+      "artificial"
+    ],
+    "107": [
+      "artificial"
+    ],
+    "108": [
+      "artificial"
+    ],
+    "109": [
+      "artificial"
+    ],
+    "110": [
+      "artificial"
+    ],
+    "111": [
+      "artificial"
+    ],
+    "112": [
+      "artificial"
+    ],
+    "113": [
+      "artificial"
+    ],
+    "114": [
+      "artificial"
+    ],
+    "115": [
+      "artificial"
+    ],
+    "116": [
+      "artificial"
+    ],
+    "117": [
+      "artificial"
+    ],
+    "118": [
+      "artificial"
+    ]
+  }
+}
