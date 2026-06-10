@@ -87,14 +87,14 @@ npm run preview  # prévisualiser le build
 
 Le site est publié sur **GitHub Pages** :
 
-- **Site en ligne :** [https://shinshin59.github.io/osc/](https://shinshin59.github.io/osc/)
-- **Dépôt :** [github.com/ShinShin59/osc](https://github.com/ShinShin59/osc)
+- **Site en ligne :** [https://shinshin59.github.io/tsc/](https://shinshin59.github.io/tsc/)
+- **Dépôt :** [github.com/ShinShin59/tsc](https://github.com/ShinShin59/tsc)
 
 Chaque push sur `main` déclenche le workflow [Deploy to GitHub Pages](.github/workflows/deploy.yml) : build Vite (`npm ci` + `npm run build`), puis publication du dossier `dist/`.
 
 Pour lancer un déploiement manuel : onglet **Actions** du dépôt → **Deploy to GitHub Pages** → **Run workflow**.
 
-Le chemin de base Vite est `/osc/` (`vite.config.ts`), aligné sur le nom du dépôt GitHub Pages.
+Le chemin de base Vite est `/tsc/` (`vite.config.ts`), aligné sur le nom du dépôt GitHub Pages.
 
 ### État actuel
 

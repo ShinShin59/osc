@@ -1,10 +1,10 @@
-# CONTEXT — OSC / ELEMENTAIRE
+# CONTEXT — TSC / ELEMENTAIRE
 
 **Daily Mystery Element** deduction game inspired by Metazoa. Each day, players worldwide triangulate toward **l'élément mystère** by comparing element properties. Identify it in as few **coups** as possible.
 
 **Authoritative design:** [`docs/reus/1-08-06-26.md`](docs/reus/1-08-06-26.md) (GDD, première réunion, 2026-06-08).  
 **Property taxonomy reference:** `README.md` (etymology, stability, CHNOPS tables).  
-**Live site:** [shinshin59.github.io/osc](https://shinshin59.github.io/osc/) · **Repo:** [github.com/ShinShin59/osc](https://github.com/ShinShin59/osc)
+**Live site:** [shinshin59.github.io/tsc](https://shinshin59.github.io/tsc/) · **Repo:** [github.com/ShinShin59/tsc](https://github.com/ShinShin59/tsc)
 
 ## Pedagogical goals
 
@@ -50,7 +50,7 @@ No server required for daily sync — seed-derived index into elements 1–118.
 
 ## Stack
 
-React 19, TypeScript, Vite 8, Tailwind CSS 4, Zustand, Base UI, Lucide. GitHub Pages (`base: /osc/`). Data sources: PubChem (physical constants), NASA (nucleosynthesis).
+React 19, TypeScript, Vite 8, Tailwind CSS 4, Zustand, Base UI, Lucide. GitHub Pages (`base: /tsc/`). Data sources: PubChem (physical constants), NASA (nucleosynthesis).
 
 ## Module map (current code)
 

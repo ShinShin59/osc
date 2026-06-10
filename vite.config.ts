@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite-plus'
 
 export default defineConfig({
-  base: '/osc/',
+  base: '/tsc/',
   plugins: [tailwindcss(), react()],
   resolve: {
     alias: { '@': path.resolve(__dirname, 'src') },

@@ -12,7 +12,7 @@ function clampMaxTries(value: number): number {
 function logMysteryElement(gameMode: GameMode, seed: string, mysteryNumber: number): void {
   const element = getElement(mysteryNumber);
   const label = element ? `${element.name} (${element.symbol})` : `#${mysteryNumber}`;
-  console.info(`[osc] élément mystère [${gameMode}] seed=${seed} → ${label}`);
+  console.info(`[tsc] élément mystère [${gameMode}] seed=${seed} → ${label}`);
 }
 
 function createInitialRoundState() {

@@ -4,7 +4,7 @@
 
 ### Issue tracker
 
-Issues live on GitHub (`ShinShin59/osc`). See `docs/agents/issue-tracker.md`.
+Issues live on GitHub (`ShinShin59/tsc`). See `docs/agents/issue-tracker.md`.
 
 ### Triage labels
 
