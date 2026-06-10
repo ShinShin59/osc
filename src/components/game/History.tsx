@@ -67,7 +67,7 @@ export function History() {
   return (
     <div
       aria-label="Historique des coups"
-      className="flex min-w-0 shrink gap-0.5"
+      className="flex min-w-0 shrink gap-0.5 self-center"
       onMouseLeave={() => setHoveredNumber(null)}
     >
       {visible.map((elementNumber, index) => (

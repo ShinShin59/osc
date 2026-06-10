@@ -8,19 +8,16 @@ import { PeriodicTable } from "@/components/game/PeriodicTable";
 export function Game() {
   return (
     <main className="grid min-h-0 flex-1 grid-rows-[auto_minmax(0,1fr)_auto] overflow-hidden">
-      <section
-        aria-label="Sélection et cartes"
-        className="shrink-0 border-b border-white/10 px-2 py-1"
-      >
-        <div className="mx-auto flex max-w-5xl items-start justify-center gap-2 sm:justify-between">
-          <div className="flex min-w-0 items-start gap-1.5 sm:gap-2">
+      <section aria-label="Sélection et cartes" className="shrink-0 px-2 py-1">
+        <div className="mx-auto flex max-w-5xl  gap-2">
+          <div className="flex min-w-0 flex-1 items-start  gap-1.5 sm:gap-2">
             <SelectedCell />
             <IdentityCard />
           </div>
           <History />
-          <div className="flex min-w-0 items-start gap-1.5 sm:gap-2">
-            <MysterySlot />
+          <div className="flex min-w-0 flex-1 items-start justify-end gap-1.5 sm:gap-2">
             <MysteryCard />
+            <MysterySlot />
           </div>
         </div>
       </section>
