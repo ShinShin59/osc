@@ -9,7 +9,7 @@ export function Game() {
   return (
     <main className="grid min-h-0 flex-1 grid-rows-[auto_minmax(0,1fr)_auto] overflow-hidden">
       <section aria-label="Sélection et cartes" className="shrink-0 px-2 py-1">
-        <div className="mx-auto flex max-w-5xl gap-2">
+        <div className="mx-auto flex flex-col md:flex-row max-w-5xl gap-2">
           <PlayerElement />
           <History />
           <MysteryElement />

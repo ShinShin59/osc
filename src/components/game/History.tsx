@@ -57,17 +57,13 @@ export function History() {
   const mysteryNumber = useGameStore((state) => state.mysteryNumber);
   const setHoveredNumber = useGameStore((state) => state.setHoveredNumber);
 
-  if (history.length === 0) {
-    return null;
-  }
-
   const visible = history.slice(-HISTORY_VISIBLE_COUNT);
   const startIndex = history.length - visible.length;
 
   return (
     <div
       aria-label="Historique des coups"
-      className="flex min-w-0 shrink gap-0.5 self-center"
+      className="flex min-h-[calc(--spacing(6)+1px+(--spacing(3)))] min-w-[calc(10*(--spacing(5))+9*(--spacing(0)))] shrink gap-0.5 self-center order-1 md:order-0 sm:min-h-[calc(--spacing(6)+1px+(--spacing(4)))] sm:min-w-[calc(10*(--spacing(6))+9*(--spacing(0)))]"
       onMouseLeave={() => setHoveredNumber(null)}
     >
       {visible.map((elementNumber, index) => (
