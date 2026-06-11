@@ -3,7 +3,7 @@ import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip
 
 export function Legend() {
   return (
-    <aside aria-label="Légende des propriétés">
+    <aside aria-label="Légende des propriétés" className="min-w-0 flex-1">
       <ul className="flex flex-wrap items-center justify-center gap-x-2 gap-y-0.5">
         {LEGEND_ITEMS.map(({ id, label, icon, description }) => (
           <li key={id}>
