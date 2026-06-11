@@ -4,6 +4,7 @@ import { cn } from "@/lib/utils";
 
 type ElementCellProps = {
   element: Element;
+  big?: boolean;
   selected?: boolean;
   onClick?: () => void;
   onMouseEnter?: () => void;
@@ -11,6 +12,7 @@ type ElementCellProps = {
 
 export function ElementCell({
   element,
+  big = false,
   selected = false,
   onClick,
   onMouseEnter,
@@ -35,7 +37,13 @@ export function ElementCell({
       <span className="hidden @min-[1.5rem]:inline absolute top-[2px] left-[2px] text-[clamp(3px,20cqmin,8px)] self-baseline @min-[2.5rem]:relative @min-[2.5rem]:top-0 @min-[2.5rem]:left-0">
         {element.number}
       </span>
-      <span className="text-[clamp(5px,34cqmin,11px)] @min-[2.5rem]:font-bold md:translate-y-1">
+      <span
+        className={cn(
+          big
+            ? "absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2.5rem]"
+            : "text-[clamp(5px,34cqmin,11px)] @min-[2.5rem]:font-bold md:translate-y-1",
+        )}
+      >
         {element.symbol}
       </span>
       <span className="hidden truncate max-w-full text-[clamp(4px,18cqmin,8px)] [@container_(min-width:2.5rem)_and_(min-height:2rem)]:inline mt-auto">

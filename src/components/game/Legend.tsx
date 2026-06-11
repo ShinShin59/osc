@@ -1,14 +1,9 @@
 import { LEGEND_ITEMS } from "@/data/properties";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
-import { cn } from "@/lib/utils";
 
-type LegendProps = {
-  className?: string;
-};
-
-export function Legend({ className }: LegendProps) {
+export function Legend() {
   return (
-    <aside aria-label="Légende des propriétés" className={cn("min-w-0", className)}>
+    <aside aria-label="Légende des propriétés">
       <ul className="flex flex-wrap items-center justify-center gap-x-2 gap-y-0.5">
         {LEGEND_ITEMS.map(({ id, label, icon, description }) => (
           <li key={id}>

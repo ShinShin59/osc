@@ -26,7 +26,7 @@ export function MysteryCell() {
 
   return (
     <div className="size-16 shrink-0 sm:size-20 md:size-24" aria-label={ariaLabel}>
-      <ElementCell element={displayElement} />
+      <ElementCell element={displayElement} big />
     </div>
   );
 }
